@@ -393,4 +393,28 @@ iframe {
         padding: 2vw;
         margin: 0vw 35vw;
     }
+    
+    /* animaciones */
+    
+    @keyframes animacion__logo {
+        0% {
+            transform: translate(0vw, -10vw);
+            opacity: 0%;
+        }
+    }
+    @keyframes animacion__menu {
+        0% {
+            opacity: 0%;
+        }
+    }
+    .logo__imagen {
+        animation-name: animacion__logo;
+        animation-iteration-count: initial;
+        animation-duration: 4s;
+    }
+    .menu__home {
+        animation-name: animacion__menu;
+        animation-duration: 10s;
+        animation-iteration-count: initial;    
+    }
 }
