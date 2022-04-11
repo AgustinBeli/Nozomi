@@ -8,21 +8,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
-<body class="nosotros">
-    <header class="cabeza">
-        <img class="logo" src="../img/logo.png" alt="Nozomi"></a>
-        <nav class="menu">
-            <ul class="menu2">
-                <li><a href="../index.html">home</a></li>
-                <li><a href="./carta.html">carta</a></li>
-                <li><a href="./nosotros.html">nosotros</a></li>
-                <li><a href="./prensa.html">prensa</a></li>
-                <li><a href="./contacto.html">contacto</a></li>
-            </ul>
-        </nav>          
-    </header>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"> <img src="../img/logo.png" alt="Nozomi"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../estructura/carta.html">CARTA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../estructura/nosotros.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../estructura/prensa.html">PRENSA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../estructura/contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>     
     <main class="historia">
         <div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus veniam aperiam corrupti, culpa, dignissimos suscipit in veritatis ex perspiciatis sint neque nostrum deserunt porro et? Animi, dolorum accusantium? Quos, aliquid?</p>
@@ -38,9 +53,13 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ducimus fuga possimus dolorum tenetur, dignissimos ratione assumenda iste rem aliquid soluta voluptate suscipit aliquam quas natus corporis facere blanditiis sed.</p>
         </div>
     </main>
-    <footer class="pie">
-        <a href="https://www.instagram.com/nozomi.ryori/" target="_blank">Instagram</a>
-        <p>Av. Alem 850 - Mercado de los Carruajes</p>
-    </footer>   
+    <footer class="text-center text-white">
+        <nav class="nav flex-column bg-dark">
+            <a class="nav-link navbar-dark active text-white" aria-current="page" href="https://www.instagram.com/nozomi.ryori/" target="_blank">INSTAGRAM</a>
+            <p>Av. Alem 850 - Mercado de los Carruajes</p>
+        </nav>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>         
 </body>
 </html>

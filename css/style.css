@@ -1,4 +1,3 @@
-
 /* bootstrap*/
 
 .container-fluid img, svg {
@@ -12,55 +11,7 @@ p {
     margin: 0;
 }
 
-
 /* MOBILE */
-
-* {
-    margin: 0;
-    padding: 0;
-    color: white;
-    background-color: #0a0a0a;
-    list-style: none;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-/* menu resto de páginas */
-
-.cabeza {
-    margin: 0;
-    padding: 2vw;
-    grid-column: 2/3;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.logo {
-    width: 50vw;
-    padding: 2vw;
-}
-.menu {
-    width: 75vw;
-    padding: 2vw;
-    font-size: 3vw;
-}
-.menu2 {
-    padding: 0;
-    display: flex;
-    justify-content: space-evenly;
-}
-.pie {
-    padding: 5vw;
-    grid-column: 1/4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1vw;
-    font-size: 2vw;
-}
 
 /* carta */
 
@@ -93,12 +44,6 @@ p {
 
 /* nosotros */
 
-.nosotros {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 0.1fr 5fr 0.1fr;
-}
 .historia {
     grid-column: 1/4;
     padding: 5vw 20vw;
@@ -117,12 +62,6 @@ p {
 
 /* prensa */
 
-.prensa {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.1fr 5fr 0.1fr;
-}
 .galeria {
     padding: 2vw;
     grid-column: 1/4;
