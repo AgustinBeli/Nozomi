@@ -1,3 +1,18 @@
+
+/* bootstrap*/
+
+.container-fluid img, svg {
+    width: 15vw;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: flex;
+    justify-content: center;
+}
+p {
+    margin: 0;
+}
+
+
 /* MOBILE */
 
 * {
@@ -12,44 +27,7 @@
     text-transform: uppercase;
 }
 
-/* index */
-
-/* .home {
-    margin-top: 50%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 0.01fr;
-}
-.logo__home {
-    padding: 5vw;
-    text-align: center;
-    grid-column: 1/4;
-    background-color: #0a0a0a;
-}
-.logo__imagen {
-    padding: 5vw;
-    width: 80vw;
-}
-.menu__home {
-    padding: 0;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 1vw;
-    grid-column: 1/4;
-}
- */
-.container-fluid img, svg {
-    width: 15vw;
-}
-.carousel-item-next, .carousel-item-prev, .carousel-item.active {
-    display: flex;
-    justify-content: center;
-}
-p {
-    margin: 0;
-}
-
-/* menu */
+/* menu resto de páginas */
 
 .cabeza {
     margin: 0;
@@ -74,7 +52,6 @@ p {
     display: flex;
     justify-content: space-evenly;
 }
-
 .pie {
     padding: 5vw;
     grid-column: 1/4;
@@ -84,14 +61,9 @@ p {
     gap: 1vw;
     font-size: 2vw;
 }
+
 /* carta */
 
-/* .carta {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 0.1fr 3fr 0.1fr;
-} */
 .platos {
     padding: 2vw;
     grid-column: 1/4;
@@ -247,44 +219,9 @@ iframe {
     width: 100%;
 }
 
-/* TABLET */
-
-@media only screen and (min-width: 768px) {
-    .home {
-        margin-top: 13%;
-        font-size: 3vw;
-    }
-}
-
 /* WEB */
 
 @media only screen and (min-width: 1200px) {
-
-    /* index */
-
-/*     .home {
-        margin: 0;
-        grid-template-rows: 0.5fr 0.2fr;
-    }
-    .logo__imagen {
-        width: 40vw;
-    }
-    .menu__home {
-        font-size: 2vw;
-    } */
-
-    /* menu */
-    
-    .logo {
-        width: 20vw;
-    }
-    .menu {
-        font-size: 1.5vw;
-    }
-    .pie {
-        padding: 2vw;
-        font-size: 1.5vw;
-    }
 
     /* carta */
 
@@ -402,29 +339,5 @@ iframe {
         font-size: 1vw;    
         padding: 2vw;
         margin: 0vw 35vw;
-    }
-    
-    /* animaciones */
-    
-    @keyframes animacion__logo {
-        0% {
-            transform: translate(0vw, -10vw);
-            opacity: 0%;
-        }
-    }
-    @keyframes animacion__menu {
-        0% {
-            opacity: 0%;
-        }
-    }
-    .logo__imagen {
-        animation-name: animacion__logo;
-        animation-iteration-count: initial;
-        animation-duration: 4s;
-    }
-    .menu__home {
-        animation-name: animacion__menu;
-        animation-duration: 10s;
-        animation-iteration-count: initial;    
     }
 }
