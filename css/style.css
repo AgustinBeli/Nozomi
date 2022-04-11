@@ -14,7 +14,7 @@
 
 /* index */
 
-.home {
+/* .home {
     margin-top: 50%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -36,6 +36,17 @@
     justify-content: space-evenly;
     gap: 1vw;
     grid-column: 1/4;
+}
+ */
+.container-fluid img, svg {
+    width: 15vw;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: flex;
+    justify-content: center;
+}
+p {
+    margin: 0;
 }
 
 /* menu */
@@ -73,15 +84,14 @@
     gap: 1vw;
     font-size: 2vw;
 }
-
 /* carta */
 
-.carta {
+/* .carta {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 0.1fr 3fr 0.1fr;
-}
+} */
 .platos {
     padding: 2vw;
     grid-column: 1/4;
@@ -252,7 +262,7 @@ iframe {
 
     /* index */
 
-    .home {
+/*     .home {
         margin: 0;
         grid-template-rows: 0.5fr 0.2fr;
     }
@@ -261,7 +271,7 @@ iframe {
     }
     .menu__home {
         font-size: 2vw;
-    }
+    } */
 
     /* menu */
     
